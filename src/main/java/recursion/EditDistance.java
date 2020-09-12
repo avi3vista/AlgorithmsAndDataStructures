@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 public class EditDistance {
 
     public static void main(String[] args) {
-        Logger lg = Logger.getLogger("Palindrome");
+        Logger lg = Logger.getLogger("EditDistance");
         String src = "all";
         String dst = "ball";
         int result = editDistanceCount(src.toCharArray(), dst.toCharArray(), 0 ,0);
